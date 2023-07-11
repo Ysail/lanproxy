@@ -29,8 +29,7 @@ import io.netty.handler.stream.ChunkedNioFile;
 
 public class HttpRequestHandler extends SimpleChannelInboundHandler<FullHttpRequest> {
 
-    private static final String PAGE_FOLDER = System.getProperty("app.home", System.getProperty("user.dir"))
-            + "/webpages";
+    private static final String PAGE_FOLDER = System.getProperty("app.home", System.getProperty("user.dir")) + "/webpages";
 
     private static final String SERVER_VS = "LPS-0.1";
 
