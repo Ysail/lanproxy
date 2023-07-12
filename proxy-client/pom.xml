@@ -23,7 +23,7 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>proxy-client-${project.version}</finalName>
+        <finalName>Sail-Nat-DDNS-client-${project.version}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -37,7 +37,7 @@
                             <goal>copy-dependencies</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>../distribution/proxy-client-${project.version}/lib</outputDirectory>
+                            <outputDirectory>../distribution/Sail-Nat-DDNS-client-${project.version}/lib</outputDirectory>
                             <overWriteReleases>false</overWriteReleases>
                             <overWriteSnapshots>false</overWriteSnapshots>
                             <overWriteIfNewer>true</overWriteIfNewer>
@@ -71,7 +71,7 @@
                         </goals>
                         <configuration>
                             <encoding>UTF-8</encoding>
-                            <outputDirectory>../distribution/proxy-client-${project.version}/conf</outputDirectory>
+                            <outputDirectory>../distribution/Sail-Nat-DDNS-client-${project.version}/conf</outputDirectory>
                             <resources>
                                 <resource>
                                     <directory>src/main/resources</directory>
@@ -91,7 +91,7 @@
                         </goals>
                         <configuration>
                             <encoding>UTF-8</encoding>
-                            <outputDirectory>../distribution/proxy-client-${project.version}/bin</outputDirectory>
+                            <outputDirectory>../distribution/Sail-Nat-DDNS-client-${project.version}/bin</outputDirectory>
                             <resources>
                                 <resource>
                                     <directory>src/main/resources</directory>
@@ -111,7 +111,7 @@
                         </goals>
                         <configuration>
                             <encoding>UTF-8</encoding>
-                            <outputDirectory>../distribution/proxy-client-${project.version}/lib</outputDirectory>
+                            <outputDirectory>../distribution/Sail-Nat-DDNS-client-${project.version}/lib</outputDirectory>
                             <resources>
                                 <resource>
                                     <directory>target</directory>
